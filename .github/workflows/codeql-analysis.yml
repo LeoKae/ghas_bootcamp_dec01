@@ -54,8 +54,8 @@ jobs:
       name: setup Java
       uses: actions/setup-java@v2
       with:
-        distribution: 'temurin' # See 'Supported distributions' for available options
-        java-version: '17'
+        distribution: 'adopt' # See 'Supported distributions' for available options
+        java-version: '15'
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
